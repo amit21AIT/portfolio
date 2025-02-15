@@ -64,7 +64,7 @@ const Hero = () => {
           <a href="https://www.linkedin.com/in/amit-singh-5aa5a114b" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
             <Linkedin size={24} />
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://github.com/amit21AIT" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
             <Github size={24} />
           </a>
         </motion.div>
