@@ -17,7 +17,7 @@ const Hero = () => {
       transition={{ duration: 0.8 }}
       className="relative min-h-screen flex align-center items-center justify-center gap-8 py-20 mx-auto"
     >
-      <div className="w-40 h-40  self-center rounded-full overflow-hidden ring-4 ring-indigo-500 ring-offset-4">
+      <div className="min-w-40 min-h-40  self-center rounded-full overflow-hidden ring-4 ring-indigo-500 ring-offset-4">
         <img
           src="assets/profile.jpeg"
           className="w-full h-full object-cover"
