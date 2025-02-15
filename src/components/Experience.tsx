@@ -49,7 +49,7 @@ const Experience = () => {
         Experience
       </motion.h2>
 
-      <div className="max-w-[65vw] mx-auto">
+      <div className=" min-w-fit max-w-[65vw] flex flex-col justify-center align-center mx-auto">
         {experiences.map((exp, index) => (
           <motion.div
             key={index}

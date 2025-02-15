@@ -15,7 +15,7 @@ const Hero = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="relative min-h-screen flex align-center items-center justify-center gap-8 py-20 mx-auto"
+      className="relative min-h-screen min-w-fit flex align-center items-center justify-center overflow-auto gap-8 px-10 m-6 py-20 mx-auto"
     >
       <div className="min-w-40 min-h-40  self-center rounded-full overflow-hidden ring-4 ring-indigo-500 ring-offset-4">
         <img
