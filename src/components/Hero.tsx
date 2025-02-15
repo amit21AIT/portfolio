@@ -15,13 +15,10 @@ const Hero = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="relative min-h-screen min-w-fit flex align-center items-center justify-center overflow-auto gap-8 px-10 m-6 py-20 mx-auto"
+      className="relative min-h-screen grid grid-cols-1 md:grid-cols-[1fr_3fr] flex align-center items-center justify-center overflow-auto gap-8 px-10 m-6 py-20 mx-auto"
     >
-      <div className="aspect-square min-w-40 w-40 h-40  self-center rounded-full overflow-hidden ring-4 ring-indigo-500 ring-offset-4">
-        <img
-          src="assets/profile.jpeg"
-          className="w-full h-full object-cover"
-        />
+      <div className="aspect-square min-w-40 w-40 h-40  place-self-center rounded-full overflow-hidden ring-4 ring-indigo-500 ring-offset-4">
+        <img src="assets/profile.jpeg" className="w-full h-full object-cover" />
       </div>
       <div className="max-w-4xl px-4">
         <motion.h1
@@ -63,20 +60,20 @@ const Hero = () => {
         </motion.p>
 
         <motion.div
-          className="flex space-x-6"
+          className="grid grid-cols-2 md:grid-cols-4 gap-6 justify-items-center "
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
         >
           <span
             key="mail"
-            className="px-4 py-1 text-sm bg-blue-500/20 text-blue-300 rounded-full"
+            className="px-4 py-1 flex justify-center md:w-fit  text-sm bg-blue-500/20 text-blue-300 rounded-full"
           >
             <a href="mailto:singhamit17363@gmail.com">Mail</a>
           </span>
           <span
             key="mail"
-            className="px-4 py-1 text-sm bg-blue-500/20 text-blue-300 rounded-full"
+            className="px-4 py-1 flex justify-center md:w-fit  text-sm bg-blue-500/20 text-blue-300 rounded-full"
           >
             <a
               href="https://www.linkedin.com/in/amit-singh-5aa5a114b"
@@ -88,7 +85,7 @@ const Hero = () => {
           </span>{" "}
           <span
             key="mail"
-            className="px-4 py-1 text-sm bg-blue-500/20 text-blue-300 rounded-full"
+            className="px-4 py-1 flex justify-center md:w-fit   text-sm bg-blue-500/20 text-blue-300 rounded-full"
           >
             <a
               href="https://github.com/amit21AIT"
@@ -100,7 +97,7 @@ const Hero = () => {
           </span>
           <span
             key="mail"
-            className="px-4 py-1 text-sm bg-blue-500/20 text-blue-300 rounded-full"
+            className="px-4 py-1 flex justify-center md:w-fit  text-sm bg-blue-500/20 text-blue-300 rounded-full"
           >
             <a
               href="https://leetcode.com/u/_amit_singh21/"

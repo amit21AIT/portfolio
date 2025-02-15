@@ -49,7 +49,7 @@ const Experience = () => {
         Experience
       </motion.h2>
 
-      <div className=" min-w-fit max-w-[65vw] flex flex-col justify-center align-center mx-auto">
+      <div className=" w-full sm:w-[90%] md:w-[65%] lg:w-[60%] overflowx-scroll mx-auto flex flex-col justify-center align-center mx-auto">
         {experiences.map((exp, index) => (
           <motion.div
             key={index}
@@ -60,7 +60,7 @@ const Experience = () => {
             transition={{ delay: index * 0.2 }}
           >
             <div className="timeline-dot" />
-            <div className="flex card justify-between gap-6">
+            <div className="flex card mx-8 justify-between gap-6">
               <div className="grow-4">
                 <h3 className="text-xl font-semibold text-white mb-2">
                   {exp.title}
