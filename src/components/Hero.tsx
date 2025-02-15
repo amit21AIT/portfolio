@@ -22,7 +22,7 @@ const Hero = () => {
       </div>
       <div className="max-w-4xl px-4">
         <motion.h1
-          className="text-5xl md:text-7xl font-bold mb-6 gradient-text flex gap-4 items-center"
+          className="text-5xl md:text-7xl font-bold mb-6 gradient-text gap-4  text-center md:text-start "
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
@@ -30,7 +30,7 @@ const Hero = () => {
           Amit Kumar Singh
         </motion.h1>
         <motion.h2
-          className="text-2xl md:text-3xl text-gray-400 mb-8"
+          className="text-2xl md:text-3xl text-center md:text-start text-gray-400 mb-8"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
@@ -38,7 +38,7 @@ const Hero = () => {
           SDE 2 @ Deutsche Bank | Full Stack Developer
         </motion.h2>
         <motion.p
-          className="text-lg text-gray-300 mb-8 max-w-2xl"
+          className="text-lg text-center md:text-start text-gray-300 mb-8 max-w-2xl"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
@@ -48,7 +48,7 @@ const Hero = () => {
           Deutsche Bank.
         </motion.p>
         <motion.p
-          className="text-lg text-gray-300 mb-12 max-w-2xl"
+          className="text-lg text-center md:text-start text-gray-300 mb-12 max-w-2xl"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
