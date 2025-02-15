@@ -8,7 +8,7 @@ const experiences = [
     period: "March 2024 - Present",
     description:
       "Core member of Autobahn Platform Team, working on modern web applications.",
-    icon: "src/assets/db-logo.png",
+    icon: "public/assets/db-logo.png",
   },
   {
     title: "Software Engineer Intern",
@@ -16,7 +16,7 @@ const experiences = [
     period: "January 2021 - June 2021",
     description:
       "Developed customized show Command Line Interfaces (CLIs) within the Cisco IOS XR operating system specifically focused on the Quality of Service (QoS)resource pool management. Implemented automated scaling and optimization triggers based on resource thresholds to enhance the efficiency of ncs4k routers",
-    icon: "src/assets/cisco.png",
+    icon: "public/assets/cisco.png",
   },
   {
     title: "Software Engineer Intern",
@@ -25,7 +25,7 @@ const experiences = [
     description:
       "Implemented a housekeeping scheduler within an Orchestration tool using the Java, Springboot, and Apache Camel framework for automated and efficient maintenance tasks",
 
-    icon: "src/assets/cs.webp",
+    icon: "public/assets/cs.webp",
   },
   {
     title: "Research Intern",
@@ -33,7 +33,7 @@ const experiences = [
     period: "May 2019 - June 2019",
     description:
       "RNa-Seq data Analysis of Oral Cancer Patients using STAR Aligner, Genome Analysis toolkit, samtools, IGV and C++, Python, and Perl achieved more than 85% accuracy",
-    icon: "src/assets/iisc.jpg",
+    icon: "public/assets/iisc.jpg",
   },
 ];
 

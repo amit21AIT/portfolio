@@ -19,7 +19,7 @@ const Hero = () => {
     >
       <div className="w-40 h-40  self-center rounded-full overflow-hidden ring-4 ring-indigo-500 ring-offset-4">
         <img
-          src="src/assets/profile.jpeg"
+          src="public/assets/profile.jpeg"
           className="w-full h-full object-cover"
         />
       </div>
