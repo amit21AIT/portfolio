@@ -65,48 +65,38 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
         >
-          <span
-            key="mail"
-            className="px-4 py-1 flex justify-item-start md:w-fit  text-sm bg-blue-500/20 text-blue-300 rounded-full"
+          <a
+            className="px-4 py-1 text-center md:w-fit  text-sm bg-blue-500/20 text-blue-300 rounded-full"
+            href="mailto:singhamit17363@gmail.com"
           >
-            <a href="mailto:singhamit17363@gmail.com">Mail</a>
-          </span>
-          <span
-            key="mail"
-            className="px-4 py-1 flex justify-item-start md:w-fit  text-sm bg-blue-500/20 text-blue-300 rounded-full"
+            Mail
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/amit-singh-5aa5a114b"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-1 text-center md:w-fit  text-sm bg-blue-500/20 text-blue-300 rounded-full"
           >
-            <a
-              href="https://www.linkedin.com/in/amit-singh-5aa5a114b"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Linkedin
-            </a>
-          </span>{" "}
-          <span
-            key="mail"
-            className="px-4 py-1 flex justify-item-start md:w-fit   text-sm bg-blue-500/20 text-blue-300 rounded-full"
+            Linkedin
+          </a>
+          <a
+            href="https://github.com/amit21AIT"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-1 text-center md:w-fit  text-sm bg-blue-500/20 text-blue-300 rounded-full"
           >
-            <a
-              href="https://github.com/amit21AIT"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github
-            </a>
-          </span>
-          <span
-            key="mail"
-            className="px-4 py-1 flex justify-item-start md:w-fit  text-sm bg-blue-500/20 text-blue-300 rounded-full"
+            Github
+          </a>
+
+          <a
+            href="https://leetcode.com/u/_amit_singh21/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-1 text-center md:w-fit  text-sm bg-blue-500/20 text-blue-300 rounded-full"
           >
-            <a
-              href="https://leetcode.com/u/_amit_singh21/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Leetcode
-            </a>
-          </span>
+            Leetcode
+          </a>
         </motion.div>
       </div>
 
