@@ -50,7 +50,7 @@ const Skills = () => {
         Skills
       </motion.h2>
       
-      <div className="max-w-4xl mx-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+      <div className="max-w-4xl mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         {skillCategories.map((category, categoryIndex) => (
           <motion.div
             key={categoryIndex}
