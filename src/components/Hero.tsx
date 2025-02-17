@@ -15,9 +15,9 @@ const Hero = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="relative mx-auto min-h-screen grid grid-cols-1 md:grid-cols-[1fr_2.5fr] flex align-center items-center justify-center overflow-auto gap-8 px-10 m-6 py-20 mx-auto"
+      className="relative mx-auto min-h-screen grid grid-cols-1 md:grid-cols-[1fr_1.5fr] flex align-center items-center justify-center overflow-auto gap-8 px-10 m-6 py-20 mx-auto"
     >
-      <div className="aspect-square md:justify-self-end min-w-40 w-40 h-40  place-self-center rounded-full overflow-hidden ring-4 ring-indigo-500 ring-offset-4">
+      <div className="aspect-square md:justify-self-center min-w-40 max-w-[50%] place-self-center rounded-full overflow-hidden ring-4 ring-indigo-500 ring-offset-4">
         <img src="assets/profile.jpeg" className="w-full h-full object-cover" />
       </div>
       <div className="max-w-4xl px-4">
@@ -38,7 +38,7 @@ const Hero = () => {
           SDE 2 @ Deutsche Bank | Full Stack Developer
         </motion.h2>
         <motion.p
-          className="text-lg text-center md:text-start text-gray-300 mb-8 max-w-2xl"
+          className="text-lg text-center md:text-start text-gray-300 mb-8 max-w-3xl"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
@@ -48,7 +48,7 @@ const Hero = () => {
           Deutsche Bank.
         </motion.p>
         <motion.p
-          className="text-lg text-center md:text-start text-gray-300 mb-12 max-w-2xl"
+          className="text-lg text-center md:text-start text-gray-300 mb-12 max-w-3xl"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}

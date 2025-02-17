@@ -60,7 +60,7 @@ const Experience = () => {
             transition={{ delay: index * 0.2 }}
           >
             <div className="timeline-dot" />
-            <div className="flex card mx-8 justify-between gap-6">
+            <div className="flex card flex-col md:flex-row mx-2 md:mx-4 justify-between gap-6">
               <div className="grow-4">
                 <h3 className="text-xl font-semibold text-white mb-2">
                   {exp.title}

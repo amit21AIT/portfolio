@@ -8,7 +8,7 @@ import Education from './components/Education';
 
 function App() {
   return (
-    <div className="min-h-screen mx-auto bg-gray-900">
+    <div className="min-h-screen px-2 md:px-6 mx-auto bg-gray-900">
       <CustomCursor />
       <Hero />
       <Experience />
