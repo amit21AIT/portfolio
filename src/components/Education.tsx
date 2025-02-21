@@ -48,7 +48,7 @@ const Education = () => {
             <Trophy className="text-blue-400" /> Achievements
           </h3>
           <ul className="space-y-4 text-gray-300">
-            <li>• Won 3rd Prize in DTCC Global AI Powered Hackathon 2023</li>
+            <li>• Won 3rd Prize in DTCC Global AI Powered Hackathon 2025</li>
             <li>• Among 362 students selected for Summer Research Fellowship Program by IAS</li>
             <li>• Awarded ZS Associates, Tata Merit, and PMSS Scholarships</li>
             <li>• Finalist in Deutsche Bank Investmant Banking Hackathon</li>

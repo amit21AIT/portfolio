@@ -38,14 +38,23 @@ const Hero = () => {
           SDE 2 @ Deutsche Bank | Full Stack Developer
         </motion.h2>
         <motion.p
-          className="text-lg text-center md:text-start text-gray-300 mb-8 max-w-3xl"
+          className="text-lg text-center md:text-start text-gray-300 mb-6 max-w-3xl"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
         >
-          I am Amit Kumar Singh, a full-stack software engineer with 3.5+ years
-          of experience, currently contributing to impactful projects at
-          Deutsche Bank.
+          A full-stack software engineer with 3.5+ years of experience, crafting
+          high-performance applications at Deutsche Bank.
+        </motion.p>
+        <motion.p
+          className="text-lg text-center md:text-start text-gray-300 mb-6 max-w-3xl"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.6 }}
+        >
+          💡 I specialize in building pixel-perfect, responsive UIs with React,
+          JavaScript, TypeScript, HTML and CSS — turning ideas into smooth,
+          interactive experiences.
         </motion.p>
         <motion.p
           className="text-lg text-center md:text-start text-gray-300 mb-12 max-w-3xl"
@@ -53,10 +62,10 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
         >
-          Skilled in building pixel-perfect, responsive UI components using
-          React, JavaScript, TypeScript, CSS, and SCSS. Proficient in backend
-          technologies, including Java, Spring Boot, C++, and SQL, enabling
-          seamless integration between frontend and backend systems.
+          🛠️ On the backend, I work with Java, Spring Boot, C++, and SQL,
+          ensuring seamless communication between the frontend and backend for
+          scalable and efficient applications. Let's build something awesome
+          together! ✨
         </motion.p>
 
         <motion.div
