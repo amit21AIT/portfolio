@@ -1,11 +1,11 @@
-import React from "react";
+rimport React from "react";
 import { motion } from "framer-motion";
 
 const experiences = [
   {
-    title: "Associate (SDE 2)",
+    title: "Senior Software Engineer",
     company: "Deutsche Bank",
-    period: "March 2024 - Present",
+    period: "July 2021 - Present",
     description:
       "Core member of Autobahn Platform Team, working on modern web applications.",
     icon: "assets/db-logo.png",
