@@ -35,7 +35,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
         >
-          SDE 2 @ Deutsche Bank | Full Stack Developer
+          Senior Software Engineer @ Deutsche Bank | Full Stack Developer
         </motion.h2>
         <motion.p
           className="text-lg text-center md:text-start text-gray-300 mb-6 max-w-3xl"
@@ -43,7 +43,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
         >
-          A full-stack software engineer with 3.5+ years of experience, crafting
+          A full-stack software engineer with 4.5+ years of experience, crafting
           high-performance applications at Deutsche Bank.
         </motion.p>
         <motion.p
